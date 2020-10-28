@@ -1,0 +1,55 @@
+body {
+    background: gray;
+}
+
+.app-title {
+     color:black;
+}
+
+.submitBtn {
+    background: blue;
+    color: white;
+
+}
+
+.submitBtn:hover {
+    background: lightblue;
+    color: black;
+}
+
+.feedback {
+    display: none;
+}
+
+.showItem {
+    display: block;
+}
+
+.item {
+    color: black;
+    border-radius: 0.5rem;
+    transition: all 1s ease-in-out;
+    border: 0.3rem solid black;
+}
+
+.item:hover {
+    border-color: blue;
+    color: black;
+}
+
+#input-value {
+    background: transparent;
+    color: black;
+}
+
+#input-value::placeholder {
+    color: wheat;
+}
+
+.remove-icon {
+    cursor: pointer;
+}
+
+.remove-icon:hover {
+    transform: scale(1.5);
+}
