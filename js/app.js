@@ -1,4 +1,5 @@
-// Assigning elements to variables
+//Get five elements and assign them to variables.
+
 
 const form = document.getElementById('input-form');
 const input = document.getElementById('input-value');
